@@ -1,0 +1,17 @@
+# Compiled applications
+/apps/buggy_app
+/apps/memory_leak
+/apps/memory_leak_fixed
+
+# QEMU root filesystem and initramfs
+/rootfs/
+/output/*.cpio.gz
+
+# Downloaded tools
+/tools/
+
+# Temporary files
+*.o
+*.ko
+*.swp
+*~
